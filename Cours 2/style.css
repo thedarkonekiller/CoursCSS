@@ -9,12 +9,23 @@ header img {
 h1 {
     color: blue;
 }
+#st {
+    display: none;
+}
+header p a {
+    display: block;
+}
+header li {
+    display: inline;
+    margin: 0 10px;
+}
 section:nth-of-type(2) p:first-of-type a[href^="#"] {
     color: orange;
 }
 section:nth-of-type(2):hover p:nth-of-type(2) {
     background: red;
 }
-h1 {
-    color: yellow;
+p {
+    display: inline;
+    margin: 0 10px;
 }
