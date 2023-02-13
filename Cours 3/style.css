@@ -1,13 +1,20 @@
 ul {
-    text-align: right;
-}
-li {
-    display: inline-block;
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    width: 250px;
-    height: 25px;
+    justify-content: right;
+  }
+  li {
     background: lightgrey;
     color: brown;
-    text-align: left;
+    width: 150px;
+    text-align: center;
+    border: solid 2px black;
   }
+  p {
+    display: flex;
+    flex-direction: row;
+  }
+a {
+    display: block;
+}
