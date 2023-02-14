@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background: yellow;
+}
+header div {
+    background: red;
+}
+header img {
+    width: 25%;
+}
+nav {
+    background: black;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    background: aqua;
+}
+header li {
+    margin: 10px 20px;
+}
+article {
+    display: flex;
+    background: radial-gradient(white, rgb(201, 60, 84));
+}
+article img {
+    width: 20%;
+}
+article div div {
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+}
