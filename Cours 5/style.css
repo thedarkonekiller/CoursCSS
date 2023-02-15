@@ -1,0 +1,64 @@
+header div {
+    position: relative;
+}
+header h1 {
+    position: absolute;
+    z-index: 2;
+    color: rgb(2, 183, 71);
+    font-size: 80px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+article {
+    position: relative;
+    height: 400px;
+}
+article div {
+    background: linear-gradient(lime, green);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+}
+article p {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+#italianflag {
+    position: relative;
+    margin-top: 50px;
+    border: solid black;
+    width: 300px;
+    height: 200px;
+}
+#ifvert {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 33%;
+    background: green;
+}
+#ifblanc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 33%;
+    right: 33%;
+    background: white;
+}
+#ifred {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 66%;
+    right: 0;
+    background: red;
+}
