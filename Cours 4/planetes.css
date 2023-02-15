@@ -36,7 +36,9 @@ article {
     margin: 40px auto;
 }
 article img {
-    height: 50%;
+    width: 160px;
+    height: 160px;
+    margin: auto auto;
 }
 article div {
     display: flex;
