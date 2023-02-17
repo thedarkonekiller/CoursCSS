@@ -1,0 +1,34 @@
+#exp2 {
+    display: flex;
+    max-width: 1150px;
+    margin: 100px auto;
+}
+article {
+    margin: 0 10px;
+}
+p {
+    max-width: 1150px;
+    text-align: justify;
+    margin: auto;
+}
+img {
+    max-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+}
+#exp1 img:first-of-type {
+    float: left;
+    shape-outside: margin-box;
+}
+#exp1 img:last-of-type {
+    float: right;
+    shape-outside: margin-box;
+}
+#img3 {
+    float: left;
+    shape-outside: margin-box;
+}
+#img4 {
+    float: right;
+    shape-outside: margin-box;
+}
