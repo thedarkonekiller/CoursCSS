@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  background: yellow;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav li {
+  display: flex;
+}
+header nav a {
+  color: #480000;
+  text-decoration: none;
+  padding: 40px 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+header nav a:hover {
+  color: #c80000;
+}
+
+header:hover {
+  background: #e6e600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form button {
+  width: 20%;
+  margin: 10px auto;
+}
+
+button {
+  border: none;
+  border-radius: 7px;
+  background: fuchsia;
+  font-size: 20px;
+}/*# sourceMappingURL=navbar.css.map */

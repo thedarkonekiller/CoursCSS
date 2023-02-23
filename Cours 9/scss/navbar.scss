@@ -1,0 +1,47 @@
+$fontsize: 20px;
+$mainColor: yellow;
+$linksColor: #480000;
+
+header {
+    width: 100%;
+    background: $mainColor;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        li {
+            display: flex;
+        }
+        a {
+            color: $linksColor;
+            text-decoration: none;
+            padding: 40px 20px;
+            font-size: $fontsize;
+            font-weight: 900;
+        }
+        a:hover {
+            color: lighten($linksColor, 25%);
+        }
+    }
+}
+header:hover {
+    background: darken($mainColor, 5%);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    input {
+        width: 20%;
+        margin: 10px auto;
+    }
+}
+button {
+    @extend input;
+    border: none;
+    border-radius: 7px;
+    background: fuchsia;
+    font-size: $fontsize;
+}
